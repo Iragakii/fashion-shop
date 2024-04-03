@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12 50px;
+    height: 200px    ;
+    align-items:center;
+
+}
+.logo 
+{
+    flex: 1;
+    padding: ;
+}
+.menu{
+    flex: 3;
+    display: flex;
+}
+.menu >  li {
+    padding: 0 12px;
+}
+.menu > li:hover .sub-menu {
+    visibility: visible;
+    top: 120px;
+}
+.sub-menu {
+    position: absolute;
+    width: 150px;
+    border: 1px solid #ccc;
+    padding: 10px 0 10px 20px;
+    visibility: hidden;
+    top: 100px;
+    transition: 0.3s;
+}   
+.sub-menu ul {
+    padding-left: 20px;
+}
+.sub-menu li a {
+    font-weight: normal;
+    font-size: 12px!important;
+}
+.menu   li   a { 
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    line-height: 20px;
+
+}
+
+.others {
+    display: flex;
+}
+.others > li {
+    padding: 0 12px;
+    position: relative;
+}
+.others > li:first-child {
+     position: relative;
+}
+.others > li:first-child input {
+    width: 50px;
+    border: none;
+    border-bottom: 1px solid #333;
+}
+
+.others > li:first-child i {
+    position: absolute;
+    right: 10px;
+}
