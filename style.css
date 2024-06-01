@@ -14,26 +14,28 @@ a {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 12 50px;
+    padding: 0px 50px;
     height: 200px    ;
     align-items:center;
 
 }
-.logo 
-{
-    flex: 1;
-    padding: ;
+.logo img{
+width: 200px;
+margin-bottom: 80px;
+    
 }
 .menu{
     flex: 3;
     display: flex;
+    margin-bottom: 100px;
 }
 .menu >  li {
     padding: 0 12px;
+    position: relative;
 }
 .menu > li:hover .sub-menu {
     visibility: visible;
-    top: 120px;
+    top: 20px;
 }
 .sub-menu {
     position: absolute;
@@ -41,8 +43,8 @@ header {
     border: 1px solid #ccc;
     padding: 10px 0 10px 20px;
     visibility: hidden;
-    top: 100px;
-    transition: 0.3s;
+    top: 50px;
+    transition: 0.3s;   
 }   
 .sub-menu ul {
     padding-left: 20px;
@@ -61,6 +63,7 @@ header {
 
 .others {
     display: flex;
+    margin-bottom: 100px;
 }
 .others > li {
     padding: 0 12px;
@@ -70,9 +73,8 @@ header {
      position: relative;
 }
 .others > li:first-child input {
-    width: 50px;
+    width: 100px;
     border: none;
-    border-bottom: 1px solid #333;
 }
 
 .others > li:first-child i {
