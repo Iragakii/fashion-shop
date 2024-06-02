@@ -81,11 +81,18 @@ margin-bottom: 80px;
     position: absolute;
     right: 10px;
 }
+#Slider{
+    padding-bottom: 30px;
+    overflow: hidden;
+    
+}
 .aspect-ratio-169 {
     display: block;
     position: relative;
     padding-top: 58%;   
-    bottom: 70px;
+    bottom: 30px;
+    transition: 0.3s;
+
   }
   
   .aspect-ratio-169 img {
@@ -95,4 +102,23 @@ margin-bottom: 80px;
     height: 100%;
     top: 0;
     left: 0;
+  }
+  .dot-container{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+  .dot{
+    height: 12px;
+    width: 12px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 12px;
+    cursor: pointer;
+  }
+  .dot.active{
+    background-color: #333;
   }
