@@ -121,6 +121,8 @@ margin-bottom: 80px;
 }
 .product-content-left{
     width: 50%;
+    text-align: center;
+    justify-content: start; 
 }
 .product-content-left-big-img{
     width: 80%;
